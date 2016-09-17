@@ -1,0 +1,4 @@
+connection.url = jdbc:impala://cloudera.quickstart:21050
+jdbc.driver.class.name = com.cloudera.impala.jdbc41.Driver
+jdbc.query = Select count(*) from sample_07
+keytab.file = ./sec/impala.keytab
